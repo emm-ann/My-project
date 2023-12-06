@@ -5,13 +5,13 @@ body, h1, h2, p, ul {
 
 body {
     font-family: Arial, sans-serif;
-    background-color:plum;
+    background-color:#e4b4b4;
     color: whitesmoke;
 }
 
 header {
-    background-color: #979494;
-    color: #fff;
+    background-color: #655959;
+    color: #e4b4b4;
     padding: 10px;
 }
 
@@ -40,17 +40,19 @@ nav ul li {
 }
 
 .container{
-    display:flex;
+   display:grid; grid-template-columns:repeat(5,1fr);
+    gap: 20px;
     border:2px solid blanchedalmond ;
     margin: 10px ;
     border-radius: 30px;
     padding :10px;
     color: black;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .container .item-container{
     border: 2px solid blanchedalmond;
+    width: 250px;
     margin: 5px;
     border-radius: 5px;
     padding: 5px;
@@ -61,9 +63,9 @@ nav ul li {
     height: 300px;
 }
 
-footer {
-    background-color: pink;
-    color: #fff;
+.footer {
+    background-color: #6f5e5e;
+    color: #daa5a5;
     text-align: center;
     padding: 10px;
 }
@@ -72,7 +74,7 @@ footer {
     color: #fff;
     padding: 10px;
     border-radius: 5px;
-    background-color: pink;
+    background-color: #8e7474;
     transition: background-color 0.3s ease;
 }
 
@@ -100,7 +102,7 @@ footer {
     color: #333;
 }
 .products-page{
-    background-image:url('https://i.pinimg.com/236x/b1/75/ef/b175ef51a9d440c05312cb4ce5beb322.jpg') ;
+    background-image:url('https://i.pinimg.com/236x/f2/d4/74/f2d474ba2a2146ba2cdddeef9b3d7182.jpg') ;
     background-size: cover;
     background-position: center;
 }
@@ -108,4 +110,43 @@ footer {
     padding: 20px;
     color: #333;
 }
+.dropdown-button {
+    background-color: #bfa1a1; 
+    padding: 5px;
+    border: 0px solid;
+    border-radius: 4px;
+    color: #fffefe;
+    font-size: 16px;
+}
 
+.btn {
+    background-color: #8e7474; 
+    color: #fff; 
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(112, 105, 24); 
+}
+.container-products{
+    display:grid; grid-template-columns:repeat(5,1fr);
+    gap: 20px;
+    border:2px solid blanchedalmond ;
+    margin: 10px ;
+    border-radius: 30px;
+    padding :10px;
+    color: black;
+    overflow-x: hidden;
+}
+.container-products .item-container{
+    border: 2px solid blanchedalmond;
+    width: 250px;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    background: transparent;
+}

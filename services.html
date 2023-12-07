@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Your Fashion Company - About</title>
+    <title>Your Fashion Company - Services</title>
 </head>
 <body class="services-page">
     <header>
@@ -20,7 +20,42 @@
 
     <section id="services">
         <div class="services-content">
-            <h2>ORTHER SERVICES OFFERD</h2>
+            <h2>OTHER SERVICES OFFERED</h2>
+
+            <div class="service">
+                <h3>Weaving Services</h3>
+                <img src="img/Abaya prayer robe.jpg"
+                <p>Text describing more about weaving services...</p>
+            </div>
+
+            <div class="service">
+                <h3>Laundry Services</h3>
+                <img src="img/Dashiki.jpg"
+                <p>Text describing more about laundry services...</p>
+            </div>
+
+            <div class="service">
+                <h3>Short Online Courses Offered</h3>
+                <img src="img/Cotton Shemagh.jpg" 
+                <p>Text describing more about the courses offered. List of courses with duration and price...</p>
+
+            
+                <form action="apply.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="course">Select Course:</label>
+                    <select id="course" name="course">
+                        <option value="course1">Course 1</option>
+                        <option value="course2">Course 2</option>
+                    </select>
+
+                    <button type="submit">Apply</button>
+                </form>
+            </div>
         </div>
     </section>
 

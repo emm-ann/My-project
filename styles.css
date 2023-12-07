@@ -50,7 +50,7 @@ nav ul li {
 }
 
 .container .item-container{
-    display: grid;
+
     border: 2px solid blanchedalmond;
     width: 300px;
     margin: 10px;
@@ -153,3 +153,78 @@ nav ul li {
     padding: 5px;
     background: transparent;
 }
+
+.search-bar {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    margin: 20px;
+}
+
+#search {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+#search-button {
+    padding: 10px;
+    margin-left: 1250px;
+    background-color: #8e7474;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: palegoldenrod;
+}
+.service {
+    margin-bottom: 30px;
+}
+
+.service h3 {
+    text-decoration: underline;
+    margin-left: 700px;
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+    float: none; 
+    margin-right: 20px;
+}
+
+.service p {
+    overflow: hidden; 
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form select {
+    margin-bottom: 10px;
+    width: 15%;
+}
+
+form button {
+    background-color: #8e7474;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: palegoldenrod;
+}
+
+

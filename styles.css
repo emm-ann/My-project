@@ -85,7 +85,7 @@ nav ul li {
     background-color: palegoldenrod;
 }
 .about-page {
-    background-image: url('https://i.pinimg.com/236x/b1/75/ef/b175ef51a9d440c05312cb4ce5beb322.jpg'); 
+    background-image: url('img/Moroccan\ Gandoura.jpg'); 
     background-size: cover;
     background-position: center;
 }
@@ -111,7 +111,7 @@ nav ul li {
 }
 .products-content{
     padding: 20px;
-    color: #ece5e5;
+    color: #e7ece5;
 }
 .dropdown-button {
     background-color: #bfa1a1; 
@@ -142,7 +142,7 @@ nav ul li {
     margin: 10px ;
     border-radius: 30px;
     padding :10px;
-    color: black;
+    color: rgb(202, 200, 200);
     overflow-x: hidden;
 }
 .container-products .item-container{

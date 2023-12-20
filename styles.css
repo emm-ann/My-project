@@ -45,7 +45,7 @@ nav ul li {
     margin: 10px ;
     border-radius: 30px;
     padding :10px;
-    color: black;
+    color: rgb(234, 213, 213);
     overflow-y: hidden;
 }
 
@@ -88,6 +88,7 @@ nav ul li {
     background-image: url('img/Moroccan\ Gandoura.jpg'); 
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .about-content {
@@ -95,9 +96,10 @@ nav ul li {
     color: #333;
 }
 .services-page {
-    background-image: url('img/service\ cov.jpg'); 
+    background-image: url('https://i.pinimg.com/236x/57/f3/be/57f3be056fba33cc446b19628f18f7c5.jpg'); 
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .services-content {
@@ -108,6 +110,7 @@ nav ul li {
     background-image:url('https://i.pinimg.com/236x/f2/d4/74/f2d474ba2a2146ba2cdddeef9b3d7182.jpg') ;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 .products-content{
     padding: 20px;
@@ -193,7 +196,7 @@ Services h2 {
     text-decoration: underline;
     margin-left: 700px;
     font-size: 26px;
-    color: rgb(131, 196, 10);
+    color: rgb(222, 239, 191);
 }
 
 .Services p {
@@ -201,7 +204,7 @@ Services h2 {
     margin-left: 20px;
     text-align: justify;
     font-size: 17px;
-    color: #fdfcfc;
+    color: #fcf9f9;
     font-family:sans-serif;
 }
 
@@ -213,7 +216,7 @@ form {
 form label {
     display: block;
     margin-bottom: 5px;
-    color: #daa5a5;
+    color: #ece6e6;
 }
 
 form input,
@@ -222,7 +225,7 @@ form select {
     width: 15%;
 }
 
-form button {
+ button {
     background-color: #8e7474;
     color: #fff;
     border: none;
